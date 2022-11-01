@@ -2,7 +2,7 @@
 
 This project demonstrates the producer consumer problem using semaphores and shared memory. The producer produces items and puts them in a table which can hold a maximum of two elements. The producer produces items when there is an open slot in the table, and the consumer consumes items if the table has items to consume.
 
-Compilation:
+Compilation:  
 $ gcc producer.c -pthread -lrt -o producer  
 $ gcc consumer.c -pthread -lrt -o consumer  
 $ ./producer & ./consumer&  
